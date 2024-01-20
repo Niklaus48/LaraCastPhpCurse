@@ -42,14 +42,5 @@ $Persons = [
 
 //by this we dont need our Filter function cuase array_filter do its job for us
 
-?>
 
-<ul>
-    <?php foreach ($filteredPerson as $item) :  ?>
-    <li>
-        <a href="#">
-            <?= $item['name'] ?>
-        </a>
-    </li>
-    <?php endforeach; ?>
-</ul>
+require 'index.view.php';
